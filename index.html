@@ -1,29 +1,30 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloudy - Best up-to-date executor</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Blaze - Best up-to-date script</title>
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #0070f3;
-            --primary-dark: #0050d3;
-            --secondary: #7928ca;
-            --accent: #00c6ff;
+            --primary: #ff3a3a;
+            --primary-dark: #d10000;
+            --secondary: #ff5e5e;
+            --accent: #ffffff;
             --bg: #050505;
             --surface: #0f0f13;
             --surface-2: #16161d;
             --text: #ffffff;
             --text-sec: rgba(255, 255, 255, 0.7);
             --border: rgba(255, 255, 255, 0.1);
-            --success: #0070f3;
+            --success: #ff3a3a;
             --warning: #f5a623;
-            --danger: #ff0080;
+            --danger: #ff0000;
             --header-bg: rgba(17, 17, 17, 0.6);
             --header-icon: #ffffff;
             --transition-fast: 0.15s;
@@ -50,9 +51,9 @@
             overflow-x: hidden;
             background-color: var(--bg);
             background-image: 
-                radial-gradient(circle at 15% 15%, rgba(0, 112, 243, 0.08), transparent 35%),
-                radial-gradient(circle at 85% 85%, rgba(121, 40, 202, 0.08), transparent 35%),
-                radial-gradient(circle at 50% 50%, rgba(0, 198, 255, 0.05), transparent 50%),
+                radial-gradient(circle at 15% 15%, rgba(255, 58, 58, 0.08), transparent 35%),
+                radial-gradient(circle at 85% 85%, rgba(255, 94, 94, 0.08), transparent 35%),
+                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.05), transparent 50%),
                 linear-gradient(rgba(255, 255, 255, 0.01) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(255, 255, 255, 0.01) 1px, transparent 1px);
             background-size: 100% 100%, 100% 100%, 100% 100%, 30px 30px, 30px 30px;
@@ -225,13 +226,13 @@
 
         .cta-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 112, 243, 0.4);
+            box-shadow: 0 5px 15px rgba(255, 58, 58, 0.4);
             color: white;
         }
 
         .cta-btn:active {
             transform: translateY(0);
-            box-shadow: 0 2px 8px rgba(0, 112, 243, 0.3);
+            box-shadow: 0 2px 8px rgba(255, 58, 58, 0.3);
         }
 
         .cta-btn.disabled {
@@ -264,7 +265,7 @@
             font-size: 4rem;
             margin-bottom: 1.5rem;
             line-height: 1.1;
-            background: linear-gradient(to right, var(--text), var(--accent));
+            background: linear-gradient(to right, var(--text), var(--primary));
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -460,7 +461,7 @@
             margin-top: 0.5rem;
             display: inline-block;
             padding: 0.4rem 0.8rem;
-            background: rgba(0, 112, 243, 0.1);
+            background: rgba(255, 58, 58, 0.1);
             border-radius: 4px;
             font-size: 0.8rem;
             transition: all var(--transition-fast) ease;
@@ -468,7 +469,7 @@
         }
 
         .req-list .req-link:hover {
-            background: rgba(0, 112, 243, 0.2);
+            background: rgba(255, 58, 58, 0.2);
             transform: translateX(2px);
         }
 
@@ -635,7 +636,7 @@
         .card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            border-color: rgba(0, 112, 243, 0.3);
+            border-color: rgba(255, 58, 58, 0.3);
         }
 
         .card::before {
@@ -660,7 +661,7 @@
             font-size: 2rem;
             margin-bottom: 1.5rem;
             color: var(--primary);
-            background: rgba(0, 112, 243, 0.1);
+            background: rgba(255, 58, 58, 0.1);
             width: 60px;
             height: 60px;
             display: flex;
@@ -672,7 +673,7 @@
 
         .card:hover .card-icon {
             transform: scale(1.05);
-            background: rgba(0, 112, 243, 0.15);
+            background: rgba(255, 58, 58, 0.15);
         }
 
         .card h3 {
@@ -742,7 +743,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle at 50% 50%, rgba(0, 112, 243, 0.1), transparent 70%);
+            background: radial-gradient(circle at 50% 50%, rgba(255, 58, 58, 0.1), transparent 70%);
             z-index: 0;
         }
 
@@ -1153,17 +1154,13 @@
                     <span class="nav-tip">Community</span>
                 </a>
                 <div class="nav-sep"></div>
-                <a href="https://linkvertise.com/1220497/cloudy-executor" class="nav-icon" data-section="download" id="dl-icon">
+                <a href="https://discord.gg/EaBN4M4CnG" class="nav-icon" data-section="download" id="dl-icon">
                     <i class="fas fa-download"></i>
                     <span class="nav-tip">Download</span>
                 </a>
-                <a href="https://discord.gg/6ER97zReVR" class="nav-icon" data-section="discord">
+                <a href="https://discord.gg/EaBN4M4CnG" class="nav-icon" data-section="discord">
                     <i class="fab fa-discord"></i>
                     <span class="nav-tip">Discord</span>
-                </a>
-                <a href="https://cloudysoftworks.mintlify.app/introduction" class="nav-icon" data-section="docs">
-                    <i class="fas fa-book"></i>
-                    <span class="nav-tip">Docs</span>
                 </a>
             </div>
         </div>
@@ -1171,12 +1168,11 @@
     <section class="hero" id="home">
         <div class="cont">
             <div class="hero-cont">
-                <h1>Cloudy</h1>
-                <p>Cloudy is the best free Roblox executor, offering fast, smooth performance with up-to-date features for seamless script execution. Whether you're new or experienced, Cloudy makes running scripts effortless.</p>
+                <h1>Blaze</h1>
+                <p>Being Developed.</p>
                 <div class="hero-btns">
-                    <a href="https://link-target.net/1325944/zyren-free-executor" id="download-button" class="cta-btn">Download Zyren Free</a>
-                    <a href="https://discord.gg/6ER97zReVR" class="sec-btn">Join Discord</a>
-                    <a href="https://link-center.net/1220497/cloudyapi" id="api-button" class="sec-btn">Download API</a>
+                    <a href="https://discord.gg/EaBN4M4CnG" id="download-button" class="cta-btn">Get Blaze</a>
+                    <a href="https://discord.gg/EaBN4M4CnG" class="sec-btn">Join Discord</a>
                 </div>
                 <div id="download-message" class="dl-msg">Join our community instead for more information!</div>
             </div>
@@ -1188,7 +1184,7 @@
                 <i class="fas fa-times"></i>
             </div>
             <h3 class="modal-title">Download Requirements</h3>
-            <p>Before downloading Cloudy, please ensure you have the following requirements installed:</p>
+            <p>Before downloading Blaze, please ensure you have the following requirements installed:</p>
             <ul class="req-list">
                 <li>
                     <i class="fas fa-check-circle"></i>
@@ -1211,10 +1207,10 @@
                     </div>
                 </li>
             </ul>
-            <p>These components are essential for Cloudy to function properly on your system.</p> 
+            <p>These components are essential for Blaze to function properly on your system.</p> 
             <div class="modal-btns">
                 <a href="#home" class="sec-btn" id="cancel-download">Cancel</a>
-                <a href="https://linkvertise.com/1220497/cloudy-executor" class="cta-btn" id="confirm-download">Download Cloudy</a>
+                <a href="https://discord.gg/EaBN4M4CnG" class="cta-btn" id="confirm-download">Get Blaze</a>
             </div>
         </div>
     </div>
@@ -1228,12 +1224,12 @@
                     <div class="card-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>UNC & sUNC</h3>
-                    <p>Cloudy offers compatibility with sUNC and UNC, delivering smooth functionality for various features.</p>
+                    <h3>Safety</h3>
+                    <p>Blaze offers compatibility with almost every executor, delivering smooth functionality for various features.</p>
                     <ul class="card-list">
-                        <li><i class="fas fa-check"></i> Premium UNC & sUNC Support</li>
-                        <li><i class="fas fa-check"></i> Fast, Reliable Execution</li>
-                        <li><i class="fas fa-check"></i> Rock-Solid Stability</li>
+                        <li><i class="fas fa-check"></i> Premium Feautures</li>
+                        <li><i class="fas fa-check"></i> Fast Reliable </li>
+                        <li><i class="fas fa-check"></i> Almost Never Down!</li>
                     </ul>
                 </div>
                 
@@ -1241,8 +1237,8 @@
                     <div class="card-icon">
                         <i class="fas fa-bug"></i>
                     </div>
-                    <h3>Script Support</h3>
-                    <p>Cloudy provides reliable, high-performance scripting tools for seamless execution, maximizing efficiency and potential in Roblox.</p>
+                    <h3>Feautures</h3>
+                    <p>Blaze Premium Has Some Unique Feautures Such As, Rapid Fire, Real Hitbox Exetender</p>
                     <ul class="card-list">
                         <li><i class="fas fa-check"></i> Full Script Compatibility</li>
                         <li><i class="fas fa-check"></i> Blazing Fast Performance</li>
@@ -1285,7 +1281,7 @@
                     <h2>Unleash the power of Exploiting.</h2>
                     <p>Ready to dominate the Roblox universe? Join our community and take control like never before!</p>
                     <div class="cta-btns">
-                        <a href="https://discord.gg/6ER97zReVR" class="cta-btn">Join Our Community</a>
+                        <a href="https://discord.gg/EaBN4M4CnG" class="cta-btn">Join Our Community</a>
                     </div>
                 </div>
             </div>
@@ -1297,19 +1293,19 @@
                 <div>
                     <a href="#" class="ft-logo">
                         <i class="fas fa-code"></i>
-                        <span>Cloudy</span>
+                        <span>Blaze</span>
                     </a>
                     <p class="ft-desc">Your go-to guide for dominating Roblox exploits, offering top-tier features for flawless execution and unbeatable performance.</p>
                     <div class="ft-social">
-                        <a href="https://github.com/cloudyExecutor" class="soc-icon"><i class="fab fa-github"></i></a>
-                        <a href="https://discord.gg/6ER97zReVR" class="soc-icon"><i class="fab fa-discord"></i></a>
+                        <a href="https://github.com/4gpn" class="soc-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://discord.gg/EaBN4M4CnG" class="soc-icon"><i class="fab fa-discord"></i></a>
                     </div>
                 </div>
                 
             </div>
             
             <div class="ft-bot">
-                <p>&copy; <span id="current-year"></span> Cloudy Project. All rights reserved.</p>
+                <p>© <span id="current-year"></span> Blaze Project. All rights reserved.</p>
                 <div class="ft-bot-links">
                     <a href="#home">Privacy</a>
                     <a href="#home">Terms</a>
@@ -1432,10 +1428,10 @@
         });
         cnfDl.addEventListener('click', async function(e) {
             e.preventDefault();
-            showAlrt('Download Started', 'Your download is starting now...', 'success');
+            showAlrt('Redirecting to Discord', 'Taking you to our Discord server...', 'success');
             closeMdl();
             await sleep(1500);
-            window.location.href = 'https://linkvertise.com/1220497/cloudy-executor';
+            window.location.href = 'https://discord.gg/EaBN4M4CnG';
         });
         window.addEventListener('click', function(e) {
             if (e.target === reqMdl) {
@@ -1470,16 +1466,12 @@
             const dlBtn = document.getElementById('download-button');
             const dlIcon = document.getElementById('dl-icon');
             const dlMsg = document.getElementById('download-message');
-            const apiBtn = document.getElementById('api-button');
             const devType = detDev();           
             const unsupDev = ["Mobile", "iOS", "iPad", "Android", "Mac", "Linux"];           
             if (unsupDev.includes(devType)) {
                 dlBtn.textContent = `Not Available for ${devType}`;
                 dlBtn.classList.add('disabled');
                 dlBtn.style.pointerEvents = 'none';          
-                apiBtn.textContent = `API Not Available`;
-                apiBtn.classList.add('disabled');
-                apiBtn.style.pointerEvents = 'none';
                 dlIcon.classList.add('disabled');
                 dlMsg.innerHTML = `
                     <strong>Currently not supported on ${devType}</strong><br>
@@ -1487,12 +1479,9 @@
                 `;
                 dlMsg.classList.add('visible');
             } else {
-                dlBtn.textContent = "Download Cloudy";
+                dlBtn.textContent = "Get Blaze";
                 dlBtn.classList.remove('disabled');
                 dlBtn.style.pointerEvents = 'auto';            
-                apiBtn.textContent = "Download API";
-                apiBtn.classList.remove('disabled');
-                apiBtn.style.pointerEvents = 'auto';
                 dlIcon.classList.remove('disabled');
                 dlMsg.classList.remove('visible');
             }
@@ -1577,22 +1566,9 @@
         function hideAlrt() {
             custAlrt.classList.remove('active');
         }
-        const apiBtn = document.getElementById('api-button');
-        apiBtn.addEventListener('click', async function(e) {
-            e.preventDefault();
-            if (!this.classList.contains('disabled')) {
-                showAlrt('API Download', 'Cloudy API download started. Check your downloads folder.', 'success');
-                await sleep(1500);
-                window.location.href = 'https://link-center.net/1220497/cloudyapi';
-            } else {
-                const devType = detDev();
-                showAlrt('Not Available', `Cloudy API is not available for ${devType} devices.`, 'warning');
-            }
-        });
         window.addEventListener('load', function() {
-            console.log('Cloudy website loaded!');
+            console.log('Blaze website loaded!');
         });
     </script>
 </body>
 </html>
-
